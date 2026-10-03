@@ -1,0 +1,11 @@
+counterparty_id,counterparty_name,default_date,default_type,resolved_recovery_rate
+CP-1025,Helios Power Systems #026,2025-11-14,Distressed Debt Exchange,0.6016
+CP-1051,Pacific Coast Commodities #052,2025-11-14,Bankruptcy Ch. 11,0.5154
+CP-1056,Meridian Power & Utility #057,2025-11-14,Missed Coupon,0.5385
+CP-1082,Orion Energy Logistics #083,2025-11-14,Missed Coupon,0.6288
+CP-1085,Blue Horizon LNG #086,2025-11-14,Bankruptcy Ch. 11,0.5767
+CP-1120,Vanguard Petrochemical #121,2025-11-14,Bankruptcy Ch. 11,0.4301
+CP-1134,Vortex Midstream Partners #135,2025-11-14,Bankruptcy Ch. 11,0.5787
+CP-1137,Meridian Power & Utility #138,2025-11-14,Missed Coupon,0.4744
+CP-1148,Solaria Clean Energy #149,2025-11-14,Bankruptcy Ch. 11,0.5388
+CP-1187,Titan Energy Holdings #188,2025-11-14,Missed Coupon,0.6607

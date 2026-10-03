@@ -1,0 +1,27 @@
+model:
+  target_column: "target"
+  features:
+    - "vol_adj_icr"
+    - "leverage_ratio"
+    - "liquidity_ratio"
+    - "cash_margin_ratio"
+    - "commodity_vol_252d"
+  random_state: 42
+  test_size: 0.25
+  calibration_method: "platt"  # sigmoid / platt scaling
+
+thresholds:
+  roc_auc_min: 0.80
+  roc_auc_fail: 0.72
+  gini_min: 0.60
+  gini_fail: 0.44
+  ks_stat_min: 45.0
+  ks_stat_fail: 35.0
+  brier_score_max: 0.08
+  brier_score_fail: 0.15
+  psi_stable_max: 0.10
+  psi_action_trigger: 0.25
+
+limits:
+  warning_utilization_pct: 85.0
+  breach_utilization_pct: 100.0

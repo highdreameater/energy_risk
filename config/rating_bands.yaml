@@ -1,0 +1,36 @@
+rating_scale:
+  AAA:
+    min_pd: 0.0000
+    max_pd: 0.0005
+    risk_category: "Minimal Risk"
+    investment_grade: true
+  AA:
+    min_pd: 0.0005
+    max_pd: 0.0015
+    risk_category: "Low Risk"
+    investment_grade: true
+  A:
+    min_pd: 0.0015
+    max_pd: 0.0050
+    risk_category: "Low-Moderate Risk"
+    investment_grade: true
+  BBB:
+    min_pd: 0.0050
+    max_pd: 0.0200
+    risk_category: "Moderate Risk"
+    investment_grade: true
+  BB:
+    min_pd: 0.0200
+    max_pd: 0.0600
+    risk_category: "Sub-Investment Grade"
+    investment_grade: false
+  B:
+    min_pd: 0.0600
+    max_pd: 0.1500
+    risk_category: "High Risk"
+    investment_grade: false
+  CCC:
+    min_pd: 0.1500
+    max_pd: 1.0000
+    risk_category: "Vulnerable / Default Imminent"
+    investment_grade: false

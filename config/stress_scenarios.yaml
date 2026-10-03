@@ -1,0 +1,48 @@
+scenarios:
+  oil_crash_2008_style:
+    name: "Severe Oil Price Crash (-50%)"
+    description: "Global demand shock resulting in a 50% plunge in crude benchmarks, squeezing upstream E&P solvency."
+    pd_multipliers:
+      "Oil E&P": 2.10
+      "Midstream": 1.45
+      "Utilities": 1.10
+      "Commodity Trading": 1.80
+      "LNG & Gas": 1.30
+      "Renewables": 1.15
+    lgd_shift: 0.15
+
+  gas_price_spike:
+    name: "Natural Gas Liquidity Crunch (+200%)"
+    description: "Extreme winter freeze driving natural gas cash prices up 200%, triggering massive initial and variation margin calls."
+    pd_multipliers:
+      "Oil E&P": 0.90
+      "Midstream": 1.20
+      "Utilities": 2.50
+      "Commodity Trading": 1.95
+      "LNG & Gas": 2.20
+      "Renewables": 1.05
+    lgd_shift: 0.10
+
+  stagflation_shock:
+    name: "Stagflation (+300bps Rates, -30% Demand)"
+    description: "Central bank rate hikes to curb sticky inflation coinciding with contraction in manufacturing throughput."
+    pd_multipliers:
+      "Oil E&P": 1.60
+      "Midstream": 1.50
+      "Utilities": 1.70
+      "Commodity Trading": 1.65
+      "LNG & Gas": 1.55
+      "Renewables": 1.80
+    lgd_shift: 0.12
+
+  energy_transition_shock:
+    name: "Accelerated Energy Transition & Carbon Tax"
+    description: "Rapid implementation of stringent carbon levies ($100/t) and fossil fuel capital flight."
+    pd_multipliers:
+      "Oil E&P": 2.40
+      "Midstream": 1.75
+      "Utilities": 1.35
+      "Commodity Trading": 1.40
+      "LNG & Gas": 1.50
+      "Renewables": 0.70
+    lgd_shift: 0.14
